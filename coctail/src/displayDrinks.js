@@ -1,6 +1,6 @@
 import get from "./getElement.js";
 import { hideLoading } from "./toggleLoading.js";
-const displayDrinks = async ({ drinks }) => {
+const displayDrinks = async ( drinks ) => {
   const section = get(".section-center");
   const title = get(".title");
   if (!drinks) {
